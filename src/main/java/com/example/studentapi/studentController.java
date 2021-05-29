@@ -7,7 +7,7 @@ public class studentController {
 
     //rest end points
     StudentRepository repository = new InmemoryStudentRepository();
-    //creatae student
+    //create student
     @PostMapping("/student")
     public void createStudent(@RequestBody Student student){
         //save student
